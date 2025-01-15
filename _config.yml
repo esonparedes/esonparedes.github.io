@@ -1,0 +1,24 @@
+title: My Jekyll Site
+description: A simple blog powered by Jekyll
+baseurl: ""
+url: "http://example.com"
+author:
+  name: Your Name
+  email: your.email@example.com
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _posts
+  - _drafts
+  - _includes
+  - _layouts
+  - _sass
+  - assets
+  - index.html
+  - _config.yml
